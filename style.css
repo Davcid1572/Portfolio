@@ -453,6 +453,11 @@ body.dark-mode {
   background-color: #333;
   color: #f0f0f0;
   border-color: #fff;
+  transition: all 0.3 ease-in-out;
+}
+.dark-mode .btn:hover {
+  background-color: #fff;
+  color: #121212;
 }
 
 .dark-mode a {
@@ -481,4 +486,18 @@ body.dark-mode .hamburger-icon span {
 
 .dark-mode .arrow {
   content: url("./assets/arrow_white.png");
+}
+
+.dark-mode .git {
+  content: url("./assets/github_inverted.png");
+}
+
+.dark-mode .linkedIn {
+  content: url("./assets/inverted-linkedIn.png");
+  border-radius: 50%;
+}
+
+.dark-mode .email-icon {
+  content: url("./assets/email-inverted.png");
+  border-radius: 50%;
 }
